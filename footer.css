@@ -1,0 +1,76 @@
+footer{
+    width: 100%;
+    padding: 0px 0px;
+    margin: 30px;
+    color:  rgb(69, 221, 226); 
+  }
+  
+  .container_footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin:auto;
+    margin-top: 100px;
+  }
+  
+  .box_footer{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+  }
+  
+  .box_footer .logo img{
+     width:80px; 
+  }
+  
+  .box_footer .terms{
+     max-width: 350px;
+     margin-top: 20px;
+     font-weight: 500;
+     color: rgb(2, 2, 2);
+     font-size: 18px;
+  }
+  
+  .box_footer h2{
+    margin-bottom: 0px;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    text-align: right;
+  }
+  
+  .box_footer a{
+    margin-top: 5px;
+    color: rgb(2, 2, 2);
+    font-weight: 600;  
+  }
+  
+  .box_footer a:hover{
+    opacity: 0.3;
+  }
+  
+  .box footer a .fab{
+    font-size: 20px;
+  }
+  
+  .box_copyright{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+  }
+  
+  .box_copyright p{
+    margin-top: 20px;
+    color: rgb(3, 3, 3);
+  }
+
+  .box_copyright hr{
+    border:none;
+    height: 1px;
+    background-color: #0d668f;
+  }
+  
+  div p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }

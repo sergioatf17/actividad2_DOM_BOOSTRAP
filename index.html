@@ -1,0 +1,117 @@
+  
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ventas al por mayor de alimentos y bebidas</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./header.css">
+    <link rel="stylesheet" href="./footer.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap"
+      rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./large.png" alt="" width="110" height="100" class="d-inline-block align-text-top">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio|</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Productos|</a>
+            </li>
+ 
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page"  href="./formulario.html" target="_blank">Contactenos|</a>
+            </li>
+            
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"></a>
+            </li>
+          </ul>
+          
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          
+        </div>
+      </div>
+    </nav>
+
+    <h1>Lista de productos</h1>
+    <form>
+      <div class="input-row">
+        <label for="txt">Producto</label>
+        <input type="text" name="txt" id="txt" required />
+      </div>
+      <div class="input-row">
+        <label for="price">Cantidad</label>
+        <input type="number" name="price" id="price" required />
+      </div>
+        <button>Agregar</button>
+    </form>
+    <table>
+      <thead>
+        <tr>
+          <th>Producto</th>
+          <th>Cantidad a cotizar en # pacas</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    
+    <div class="button1" >
+        <button type="button" class="btn btn-dark">Enviar</button> 
+    </div>
+
+    <footer >
+
+        <div class="container_footer">
+            
+            <div class="box_footer">
+                <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i> Facebook</a>
+                <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i> Instagram</a>
+                <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i> Linkedin</a>
+            </div>
+
+            <div class="box_footer">
+                <div class="logo">
+                    <img src="./imagenes/logo.jpg" alt="">
+                </div>
+              <section id="post-6">
+                 <div class="terms">
+                    <p>Somos distribuidores al por mayor de todo tipo de bebidas y alimentos perecederos y no perecederos dentro del territorio nacional. </p>
+                 </div>
+              </section>
+            </div>
+
+        </div>
+        
+        <div class="box_copyright">
+            <hr>
+            <p>Todos los derechos reservados © 2021 <b>DELIVERY 24/7</b></p>
+        </div>
+
+    </footer>
+    
+    <script src="./javascript.js"></script>
+  </body>
+</html>

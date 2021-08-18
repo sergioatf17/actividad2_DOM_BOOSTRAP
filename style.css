@@ -1,0 +1,42 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(255, 255, 255);
+}
+h1 {
+  margin: 50px 0px 8px;
+  text-align: center;
+}
+table,
+form {
+  width: 500px;
+  margin: 20px auto;
+}
+table {
+  border-collapse: collapse;
+  text-align: center;
+}
+table td,
+table th {
+  border: solid 1px black;
+  
+}
+label,
+input {
+  display: block;
+  margin: 10px 0;
+  font-size: 20px;
+  border-radius: 5px;
+}
+button {
+  padding: 1px 6px;
+  display: block;
+}
+
+div.button1 {
+ padding: 20px;
+ text-align: center ;
+  
+}
+
+
+  
